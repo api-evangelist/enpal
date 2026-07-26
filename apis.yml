@@ -1,8 +1,15 @@
 aid: enpal
 name: Enpal
-description: 'Enpal is a company surfaced as a portfolio company of hv-capital, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: climate-energy. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Enpal is a Berlin-based residential clean-energy company and one of Germany''s
+  market leaders in home solar. It sells and finances complete home energy systems —
+  rooftop solar PV, battery storage, air-to-water heat pumps, EV wallbox chargers, and a
+  dynamic electricity tariff — orchestrated by its Enpal.One+ smart energy-management
+  platform, with flexible purchase and zero-down financing options. Enpal serves over
+  130,000 German households and operates business (business.enpal.de) and installer partner
+  (enpal.pro) channels alongside its consumer offering. Backed by HV Capital and the SoftBank
+  Vision Fund. This API Evangelist profile was created from a VC-portfolio lead; Enpal
+  publishes a consumer website and customer portal but no public developer API surface at
+  the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/enpal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +18,54 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Climate Energy
+- Solar
+- Renewable Energy
+- Battery Storage
+- Heat Pumps
+- EV Charging
+- Energy Management
+- Germany
+image: https://www.enpal.de/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/enpal-domain-security.yml
+- type: Website
+  url: https://www.enpal.de
+- type: Blog
+  url: https://www.enpal.de/magazin
+- type: Support
+  url: https://www.enpal.de/kontakt
+- type: HelpCenter
+  url: https://www.enpal.de/faq
+- type: PrivacyPolicy
+  url: https://www.enpal.de/info/datenschutz
+- type: Login
+  url: https://portal.enpal.de
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
